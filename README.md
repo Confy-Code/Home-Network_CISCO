@@ -113,7 +113,7 @@ Routers were configured via the Command Line Interface (CLI).
 
 Each router was configured similarly according to its assigned subnet.
 
-**Note**:It is recommended to save your configurations to Non-volantile RAM(NVRAM), so that you do not lose yor work. That is why we encourage you to include the `write` command in your CLI once you are in the privileged EXEC mode(#)
+**Note**: It is recommended to save your configurations to Non-volantile RAM(NVRAM), so that you do not lose your work. That is why we encourage you to include the `write` command in your CLI once you are in the privileged-EXEC mode(#)
 
 ---
 
