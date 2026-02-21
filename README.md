@@ -97,18 +97,23 @@ Routers were configured via the Command Line Interface (CLI).
     enable
     configure terminal
     
-    interface GigabitEthernet0/0
+    interface GigabitEthernet0/0/0
     ip address 192.168.10.30 255.255.255.224
     no shutdown
     exit
     
-    interface serial0/0/0
+    interface Serial0/1/0
     ip address 10.0.0.1 255.255.255.252
     clock rate 6400
     no shutdown
     exit
 
+    exit
+    write
+
 Each router was configured similarly according to its assigned subnet.
+
+**Note**:It is recommended to save your configurations to Non-volantile RAM(NVRAM), so that you do not lose yor work. That is why we encourage you to include the `write` command in your CLI once you are in the privileged EXEC mode(#)
 
 ---
 
